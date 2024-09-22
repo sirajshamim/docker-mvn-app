@@ -7,7 +7,8 @@ node {
     properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([pollSCM('* * * * *')])])
     def mavenhome = tool name:'maven3.8.7'
     stage('checkout code'){
-        }
+        git credentialsId: '123456kdfjksdjfksdljf', url: 'https://github.com/sirajshamim/docker-mvn-app.git'
+    }
     stage('Build'){
         sh "${mavenhome}/bin/mvn clean package"
     }
