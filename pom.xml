@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>BazTechknow</name>
-		<url>https://baztechknow.com/</url>
+		<name>Corvit Systems</name>
+		<url>http://corvit.com/</url>
 	</organization>
 
 	<properties>
@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
-			<version>20240922</version>
+			<version>20160212</version>
 		</dependency>
 		
 		<!-- test dependencies -->
@@ -96,14 +96,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Siraj Releases Nexus Repository</name>
-	      <url>http://172.31.4.21:8081/repository/MyApp-releases/</url>
+	      <name>Corvit Releases Nexus Repository</name>
+	      <url>http://172.31.4.21:8081/repository/ublbank-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Siraj Snapshot Nexus Repository </name>
-	      <url>http://172.31.4.21:8081/repository/MyApp-snapshot/</url>
+	      <name>Corvit Snapshot Nexus Repository </name>
+	      <url>http://172.31.4.21:8081/repository/ublbank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
