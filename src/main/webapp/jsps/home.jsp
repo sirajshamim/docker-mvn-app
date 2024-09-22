@@ -42,6 +42,9 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<a href="https://api.whatsapp.com/send/?phone=923008563209&text&type=phone_number&app_absent=0">WhatsApp to BazTechKnow </a>
 	</span>
 </div>
+<hr>
+	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
+<hr>
 <p align=center>BazTechKnow</p>
 <p align=center><small>Copyrights 2024 by BazTechKnow </small></p>
 </body>
